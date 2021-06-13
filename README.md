@@ -1,2 +1,2 @@
-# Sementiag.github.io
+# sementiago.github.io
 Первый хостинг
