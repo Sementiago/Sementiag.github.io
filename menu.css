@@ -1,0 +1,95 @@
+div.menu {
+    width: 100%;
+    background-color: blueviolet;
+    box-shadow: 0px 0px 5px black;
+    display: inline-block;
+    height: 40px;
+}
+
+div.menup1 {
+    display: inline-block;
+    height: 60px;
+    width: 900px;
+
+}
+
+div.menup2 {
+    display: inline-block;
+}
+
+
+ul.menu {
+    background-color: blueviolet;
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+span:hover {
+    background-color: lightgrey;
+    color: #555555;
+}
+
+span.menu {
+    display: inline-block;
+    font-family: Economica;
+    font-weight: bold;
+    color: snow;
+    font-size: 26px;
+    vertical-align: center;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.float {
+    color: red;
+    float: right;
+    margin-right: 50px;
+    vertical-align: center;
+}
+
+div.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+}
+div.buttons{
+    display: inline-block;
+}
+
+.textbuttons{
+    background-color: transparent;
+    border: transparent;
+    color: blueviolet;
+    font-family: Economica;
+    font-size: 20px;
+}
+
+.textbuttons:active{
+    font-weight: bold;
+}
+
+.numberbuttons{
+    background-color: transparent;
+    border: 2px solid grey;
+    border-radius: 6px;
+    color: blueviolet;
+}
+
+.numberbuttons:active{
+    background-color: blueviolet;
+    color: white;
+}
