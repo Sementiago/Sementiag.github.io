@@ -8,13 +8,15 @@ div.menu {
 
 div.menup1 {
     display: inline-block;
-    height: 60px;
+    height: 40px;
     width: 900px;
 
 }
 
 div.menup2 {
     display: inline-block;
+    height: 40px;
+    width: 100px;
 }
 
 
@@ -33,7 +35,7 @@ a {
     text-decoration: none;
 }
 
-span:hover {
+span.menu:hover {
     background-color: lightgrey;
     color: #555555;
 }
@@ -51,10 +53,18 @@ span.menu {
 }
 
 div.float {
+
     color: red;
     float: right;
     margin-right: 50px;
-    vertical-align: center;
+
+}
+div{
+    width: 100%;
+}
+
+div.uselessbuttons{
+    margin-top: 50px;
 }
 
 div.footer {

@@ -1,0 +1,126 @@
+
+div.bs{
+    width: 1540px;
+    position: relative;
+    top: 60px;
+    height: 500px;
+    text-align: left;
+}
+
+div p.bs{
+    text-align: center;
+    font-size: 18px;
+    font-family: Economica;
+}
+
+
+#red, #blue, #green {
+    display: none;
+}
+
+.lablered {
+    color: red;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid;
+    text-align: center;
+    vertical-align: center;
+    width: 95px;
+    display: inline-block;
+    font-family: Economica;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.lablegreen {
+    color: green;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid;
+    text-align: center;
+    vertical-align: center;
+    width: 95px;
+    display: inline-block;
+    font-family: Economica;
+    font-size: 16px;
+    font-weight: bold;
+
+
+
+}
+
+.lableblue {
+    color: cornflowerblue;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid;
+    text-align: center;
+    vertical-align: center;
+    width: 95px;
+    display: inline-block;
+    font-family: Economica;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.redc:checked + label {
+    opacity: 40%;
+
+}
+
+.greenc:checked + label {
+    opacity: 40%;
+    }
+
+.bluec:checked + label {
+    opacity: 40%;
+}
+.redbox{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-family: Arial;
+    padding: 5px;
+    width: 95px;
+    display: inline-block;
+    text-align: center;
+}
+
+.greenbox{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-family: Arial;
+    padding: 5px;
+    width: 95px;
+    display: inline-block;
+    text-align: center;
+}
+
+.bluebox
+{
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    font-family: Arial;
+    padding: 5px;
+    width: 95px;
+    display: inline-block;
+    text-align: center;
+}
+
+.redc:checked ~ .redbox {
+    display: none;
+}
+
+.greenc:checked ~ .greenbox {
+    display: none;
+}
+
+.bluec:checked ~ .bluebox {
+    display: none;
+}
+
+
+
