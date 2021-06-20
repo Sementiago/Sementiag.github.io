@@ -1,0 +1,277 @@
+div.menu {
+    position: relative;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    background-color: lightskyblue;
+    box-shadow: 0 0 2px 2px rgba(50, 50, 66, 0.4);
+}
+
+div.leftmenu, div.rightmenu {
+    display: inline-block;
+    font-size: 0px;
+    height: 40px;
+}
+
+div.leftmenu {
+    width: 80%;
+    height: 40px;
+    overflow: hidden;
+}
+
+div.rightmenu {
+    position: absolute;
+    right: 0;
+}
+
+div.menu ul {
+    list-style-type: none;
+    text-align: left;
+    height: 40px;
+}
+
+div.leftmenu ul {
+    padding: 0 0 0 20px;
+}
+
+div.rightmenu ul {
+    padding: 0 20px 0 0;
+}
+
+div.menu li {
+    display: inline-block;
+    vertical-align: center;
+}
+
+div.menu a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Calibri Light";
+    color: snow;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+    padding: 0 5px;
+
+}
+
+div.menu a:hover {
+    background-color: dodgerblue;
+}
+
+div.submenu {
+    display: none;
+    position: absolute;
+    height: 40px;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    background-color: lightgrey;
+    font-size: 0px;
+    box-shadow: 0 3px 2px 2px rgba(50, 50, 66, 0.4);
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+}
+
+div.submenu ul {
+    display: inline-block;
+    height: 40px;
+    padding-left: 20px;
+
+}
+
+div.submenu li {
+    display: inline-block;
+    color: black;
+    line-height: 40px;
+
+}
+
+div.submenu a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: "Calibri Light";
+    color: darkgrey;
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 100px;
+}
+
+div.submenu a:hover {
+    background-color: darkgrey;
+    color: snow;
+}
+
+div.menu li:hover + .submenu, div.submenu:hover {
+    display: inline-block;
+}
+
+div.page {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    z-index: 0;
+}
+
+div.ad {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 4px solid #ee8129;
+    border-radius: 5px;
+    height: 500px;
+    width: 300px;
+    margin: auto;
+    background-color: #ee8129;
+    box-shadow: 0 0 6px black;
+
+}
+
+div.bestvalue {
+    position: relative;
+    display: inline-block;
+    height: 80px;
+
+}
+
+div.bestvalue p {
+    display: inline-block;
+    width: 300px;
+    font-size: 24px;
+    color: snow;
+    font-family: "Trebuchet MS";
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
+}
+
+div.price {
+    height: 160px;
+    background-color: white;
+    text-align: center;
+}
+
+div.price span {
+    display: inline-block;
+    font-family: "Trebuchet MS";
+    color: #35495a;
+}
+
+div.price .p1 {
+    font-size: 24px;
+    line-height: 60px;
+    vertical-align: center;
+}
+
+div.price .p2 {
+    font-size: 36px;
+    vertical-align: top;
+
+}
+
+div.price .p3 {
+    font-size: 72px;
+    line-height: 100px;
+    vertical-align: center;
+
+}
+
+div.price .p4 {
+    font-size: 18px;
+
+    vertical-align: bottom;
+
+}
+
+div.list {
+    position: relative;
+    height: 140px;
+    background-color: white;
+}
+
+div.list ul {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    list-style-type: none;
+    width: 280px;
+    margin-left: 0;
+    padding: 0;
+    text-align: left;
+
+
+}
+
+div.list li {
+    display: block;
+    position: relative;
+    font-family: "Trebuchet MS";
+    color: #555555;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 60px;
+    margin: 1px auto;
+}
+
+div.list li:before {
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    display: inline-block;
+    content: url("content/logo.png");
+    margin-right: 20px;
+
+
+}
+
+div.list li.odd {
+    background-color: #edf5fd;
+}
+
+div.list li.even {
+    background-color: rgba(217, 217, 217, 0.16);
+}
+
+div.button {
+    position: relative;
+    height: 100px;
+    background-color: white;
+}
+
+div.button button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    height: 50px;
+    width: 200px;
+    margin: auto;
+
+    border: 2px solid #ee8129;
+    border-radius: 5px;
+    background-color:#ee8129;
+    color: white;
+    font-family: "Trebuchet MS";
+    font-size: 24px;
+}
+div.button button:hover{
+    border-bottom: 2px solid darkorange;
+}
+
+div.button button:active{
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
